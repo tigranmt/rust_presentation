@@ -1,6 +1,6 @@
 
 
-/*use std::mem::size_of;
+use std::mem::size_of;
 #[derive(Debug)]
 enum Canvas {
     Point {x:i32, y:i32},
@@ -27,10 +27,4 @@ fn main() {
     println!("Size of Canvas enum is: {}", size_of::<Canvas>());
     println!("  --> Size of String : {}",  size_of::<String>());
 
-}*/
-
-
-fn main()
-{
-   
 }
